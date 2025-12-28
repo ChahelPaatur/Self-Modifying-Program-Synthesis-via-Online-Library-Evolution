@@ -1,10 +1,3 @@
-# Self-Modifying Program Synthesis via Online Library Evolution
-
-> **A mechanistic approach to few-shot abstract reasoning with cross-domain validation**  
-> Independent Research Project, 2024-2025 Academic Year  
-> Chahel Paatur | John C. Kimball High School
-
----
 
 ## Abstract
 
