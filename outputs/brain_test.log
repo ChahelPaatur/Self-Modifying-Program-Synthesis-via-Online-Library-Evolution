@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/chahelpaatur/Documents/ARC2025/brain_arc_solver.py", line 381, in <module>
+    main()
+  File "/Users/chahelpaatur/Documents/ARC2025/brain_arc_solver.py", line 364, in main
+    results.append((tid,c,len(targets)))
+                        ^
+UnboundLocalError: cannot access local variable 'c' where it is not associated with a value

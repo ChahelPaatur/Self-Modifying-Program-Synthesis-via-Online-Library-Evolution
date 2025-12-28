@@ -1,0 +1,606 @@
+{
+  "n_tasks": 120,
+  "strict_accuracy": 0.03333333333333333,
+  "results": [
+    {
+      "task_id": "aero_0000",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0001",
+      "solved": true,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0002",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0003",
+      "solved": false,
+      "program": "replace_1_to_9(1, 9)"
+    },
+    {
+      "task_id": "aero_0004",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0005",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0006",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0007",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0008",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0009",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0010",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0011",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0012",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0013",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0014",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0015",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0016",
+      "solved": true,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0017",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0018",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0019",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0020",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0021",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0022",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0023",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0024",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0025",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0026",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0027",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0028",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0029",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0030",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0031",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0032",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0033",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0034",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0035",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0036",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0037",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0038",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0039",
+      "solved": false,
+      "program": "replace_1_to_9(1, 9)"
+    },
+    {
+      "task_id": "aero_0040",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0041",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0042",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0043",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0044",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0045",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0046",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0047",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0048",
+      "solved": false,
+      "program": "replace_4_to_9(4, 9)"
+    },
+    {
+      "task_id": "aero_0049",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0050",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0051",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0052",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0053",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0054",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0055",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0056",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0057",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0058",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0059",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0060",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0061",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0062",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0063",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0064",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0065",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0066",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0067",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0068",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0069",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0070",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0071",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0072",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0073",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0074",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0075",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0076",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0077",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0078",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0079",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0080",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0081",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0082",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0083",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0084",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0085",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0086",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0087",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0088",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0089",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0090",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0091",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0092",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0093",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0094",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0095",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0096",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0097",
+      "solved": true,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0098",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0099",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0100",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0101",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0102",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0103",
+      "solved": false,
+      "program": "replace_2_to_9(2, 9)"
+    },
+    {
+      "task_id": "aero_0104",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0105",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0106",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0107",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0108",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0109",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0110",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0111",
+      "solved": true,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0112",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0113",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0114",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0115",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0116",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0117",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0118",
+      "solved": false,
+      "program": "None"
+    },
+    {
+      "task_id": "aero_0119",
+      "solved": false,
+      "program": "None"
+    }
+  ]
+}

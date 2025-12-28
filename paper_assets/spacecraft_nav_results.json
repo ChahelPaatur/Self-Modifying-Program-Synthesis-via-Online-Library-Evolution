@@ -1,0 +1,1146 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "results": [
+    {
+      "name": "lqr+dockpd+shield",
+      "cfg": {
+        "controller": "lqr",
+        "docking_mode": true,
+        "safety_shield": true,
+        "speed_shaping_cost": true,
+        "thrust_max": 0.03,
+        "fuel_budget": 20.0,
+        "pos_sigma": 0.75,
+        "vel_sigma": 0.015,
+        "lqr_R_scale": 200.0,
+        "mpc_candidates": 1500,
+        "mpc_horizon_steps": 80
+      },
+      "n": 20,
+      "success_rate": 1.0,
+      "fuel_mean": 10.408189971901582,
+      "fuel_std": 0.21090707760306981,
+      "steps_mean": 660.85,
+      "steps_std": 97.88732042506834,
+      "rows": [
+        {
+          "success": 1.0,
+          "steps": 664.0,
+          "fuel_used": 10.75936608221272,
+          "min_range": 0.498545671769365,
+          "final_range": 0.498545671769365,
+          "final_speed": 0.007643224901615206,
+          "elapsed_seconds": 0.13123297691345215,
+          "seed": 0
+        },
+        {
+          "success": 1.0,
+          "steps": 738.0,
+          "fuel_used": 10.137007961190132,
+          "min_range": 0.40949502935846954,
+          "final_range": 0.49982778107116277,
+          "final_speed": 0.008990291538683914,
+          "elapsed_seconds": 0.08411383628845215,
+          "seed": 1
+        },
+        {
+          "success": 1.0,
+          "steps": 801.0,
+          "fuel_used": 10.40819473846429,
+          "min_range": 0.24014767328741077,
+          "final_range": 0.49909828556209956,
+          "final_speed": 0.0036051881552176574,
+          "elapsed_seconds": 0.11548185348510742,
+          "seed": 2
+        },
+        {
+          "success": 1.0,
+          "steps": 656.0,
+          "fuel_used": 10.307930854549744,
+          "min_range": 0.37413684662355856,
+          "final_range": 0.49930929570476523,
+          "final_speed": 0.004363446805654763,
+          "elapsed_seconds": 0.06635713577270508,
+          "seed": 3
+        },
+        {
+          "success": 1.0,
+          "steps": 539.0,
+          "fuel_used": 10.34951914400208,
+          "min_range": 0.32360441696939163,
+          "final_range": 0.47945554472560203,
+          "final_speed": 0.050221982536539395,
+          "elapsed_seconds": 0.04443001747131348,
+          "seed": 4
+        },
+        {
+          "success": 1.0,
+          "steps": 536.0,
+          "fuel_used": 10.323184432880945,
+          "min_range": 0.4769405659921491,
+          "final_range": 0.4769405659921491,
+          "final_speed": 0.04829667161557698,
+          "elapsed_seconds": 0.041203975677490234,
+          "seed": 5
+        },
+        {
+          "success": 1.0,
+          "steps": 796.0,
+          "fuel_used": 10.320978402424183,
+          "min_range": 0.49553125880674925,
+          "final_range": 0.49553125880674925,
+          "final_speed": 0.01007109691134292,
+          "elapsed_seconds": 0.09328818321228027,
+          "seed": 6
+        },
+        {
+          "success": 1.0,
+          "steps": 522.0,
+          "fuel_used": 10.347910370173661,
+          "min_range": 0.49673790885374797,
+          "final_range": 0.49673790885374797,
+          "final_speed": 0.05977962621290342,
+          "elapsed_seconds": 0.03030681610107422,
+          "seed": 7
+        },
+        {
+          "success": 1.0,
+          "steps": 526.0,
+          "fuel_used": 10.41783295563829,
+          "min_range": 0.4825702321242285,
+          "final_range": 0.4825702321242285,
+          "final_speed": 0.06993726204179856,
+          "elapsed_seconds": 0.035594940185546875,
+          "seed": 8
+        },
+        {
+          "success": 1.0,
+          "steps": 527.0,
+          "fuel_used": 10.265473045095305,
+          "min_range": 0.2894628261227057,
+          "final_range": 0.4891772209961427,
+          "final_speed": 0.06977583441909709,
+          "elapsed_seconds": 0.11699199676513672,
+          "seed": 9
+        },
+        {
+          "success": 1.0,
+          "steps": 632.0,
+          "fuel_used": 10.331931394299586,
+          "min_range": 0.4991409065334104,
+          "final_range": 0.4991409065334104,
+          "final_speed": 0.005912835127244127,
+          "elapsed_seconds": 0.13840007781982422,
+          "seed": 10
+        },
+        {
+          "success": 1.0,
+          "steps": 700.0,
+          "fuel_used": 10.463355419568217,
+          "min_range": 0.2686175980213531,
+          "final_range": 0.4972235462592398,
+          "final_speed": 0.010240035142683554,
+          "elapsed_seconds": 0.3668982982635498,
+          "seed": 11
+        },
+        {
+          "success": 1.0,
+          "steps": 757.0,
+          "fuel_used": 10.333695235055517,
+          "min_range": 0.497610776838646,
+          "final_range": 0.497610776838646,
+          "final_speed": 0.009248685188507726,
+          "elapsed_seconds": 0.08262801170349121,
+          "seed": 12
+        },
+        {
+          "success": 1.0,
+          "steps": 757.0,
+          "fuel_used": 10.436707108109333,
+          "min_range": 0.49545670510372397,
+          "final_range": 0.49545670510372397,
+          "final_speed": 0.011300023788927601,
+          "elapsed_seconds": 0.1120450496673584,
+          "seed": 13
+        },
+        {
+          "success": 1.0,
+          "steps": 531.0,
+          "fuel_used": 10.411527438032353,
+          "min_range": 0.49170218922032555,
+          "final_range": 0.49170218922032555,
+          "final_speed": 0.06413900263734129,
+          "elapsed_seconds": 0.0917198657989502,
+          "seed": 14
+        },
+        {
+          "success": 1.0,
+          "steps": 786.0,
+          "fuel_used": 11.170734098942352,
+          "min_range": 0.4990071361578725,
+          "final_range": 0.4990071361578725,
+          "final_speed": 0.005574850201432409,
+          "elapsed_seconds": 0.09686684608459473,
+          "seed": 15
+        },
+        {
+          "success": 1.0,
+          "steps": 650.0,
+          "fuel_used": 10.241177385066072,
+          "min_range": 0.49590869813896427,
+          "final_range": 0.49590869813896427,
+          "final_speed": 0.009026585929989537,
+          "elapsed_seconds": 0.07571697235107422,
+          "seed": 16
+        },
+        {
+          "success": 1.0,
+          "steps": 653.0,
+          "fuel_used": 10.291474607450857,
+          "min_range": 0.22271669626043755,
+          "final_range": 0.4978405680941561,
+          "final_speed": 0.005748377747876669,
+          "elapsed_seconds": 0.24512314796447754,
+          "seed": 17
+        },
+        {
+          "success": 1.0,
+          "steps": 705.0,
+          "fuel_used": 10.45202394999336,
+          "min_range": 0.2226188193540239,
+          "final_range": 0.4996842537890724,
+          "final_speed": 0.004300451181870044,
+          "elapsed_seconds": 0.18351006507873535,
+          "seed": 18
+        },
+        {
+          "success": 1.0,
+          "steps": 741.0,
+          "fuel_used": 10.393774814882622,
+          "min_range": 0.49792004592404177,
+          "final_range": 0.49792004592404177,
+          "final_speed": 0.00971894915135529,
+          "elapsed_seconds": 0.09979581832885742,
+          "seed": 19
+        }
+      ]
+    },
+    {
+      "name": "lqr+dockpd",
+      "cfg": {
+        "controller": "lqr",
+        "docking_mode": true,
+        "safety_shield": false,
+        "speed_shaping_cost": true,
+        "thrust_max": 0.03,
+        "fuel_budget": 20.0,
+        "pos_sigma": 0.75,
+        "vel_sigma": 0.015,
+        "lqr_R_scale": 200.0,
+        "mpc_candidates": 1500,
+        "mpc_horizon_steps": 80
+      },
+      "n": 20,
+      "success_rate": 0.7,
+      "fuel_mean": 17.984743728735097,
+      "fuel_std": 0.8925713787299212,
+      "steps_mean": 1097.95,
+      "steps_std": 99.46329725079497,
+      "rows": [
+        {
+          "success": 1.0,
+          "steps": 1124.0,
+          "fuel_used": 17.0500904465312,
+          "min_range": 0.4964788472222192,
+          "final_range": 0.4964788472222192,
+          "final_speed": 0.00872871338541064,
+          "elapsed_seconds": 0.14969396591186523,
+          "seed": 0
+        },
+        {
+          "success": 1.0,
+          "steps": 879.0,
+          "fuel_used": 17.27625567169626,
+          "min_range": 0.05399858993246217,
+          "final_range": 0.113721886560648,
+          "final_speed": 0.07886535409452373,
+          "elapsed_seconds": 0.044358015060424805,
+          "seed": 1
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 18.038340726073336,
+          "min_range": 0.37873673322639917,
+          "final_range": 0.7634071450941164,
+          "final_speed": 0.008468377335251156,
+          "elapsed_seconds": 0.14894890785217285,
+          "seed": 2
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 18.686130265169616,
+          "min_range": 0.19369813233369762,
+          "final_range": 0.7715421545181183,
+          "final_speed": 0.009537830177224526,
+          "elapsed_seconds": 0.052160024642944336,
+          "seed": 3
+        },
+        {
+          "success": 1.0,
+          "steps": 1032.0,
+          "fuel_used": 18.000235702217932,
+          "min_range": 0.06515208595718751,
+          "final_range": 0.49702818636961726,
+          "final_speed": 0.007623120584133486,
+          "elapsed_seconds": 0.04627418518066406,
+          "seed": 4
+        },
+        {
+          "success": 1.0,
+          "steps": 1117.0,
+          "fuel_used": 17.0926048093113,
+          "min_range": 0.4971727727249448,
+          "final_range": 0.4971727727249448,
+          "final_speed": 0.008061246016980515,
+          "elapsed_seconds": 0.0774381160736084,
+          "seed": 5
+        },
+        {
+          "success": 1.0,
+          "steps": 978.0,
+          "fuel_used": 18.060792907629267,
+          "min_range": 0.020889944167654405,
+          "final_range": 0.48476470457559245,
+          "final_speed": 0.04307586506162964,
+          "elapsed_seconds": 0.0392000675201416,
+          "seed": 6
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 18.52285668726192,
+          "min_range": 0.03075011925805336,
+          "final_range": 0.662739414095353,
+          "final_speed": 0.006593231533889911,
+          "elapsed_seconds": 0.04778623580932617,
+          "seed": 7
+        },
+        {
+          "success": 1.0,
+          "steps": 958.0,
+          "fuel_used": 16.756830472992117,
+          "min_range": 0.4948677808597498,
+          "final_range": 0.4948677808597498,
+          "final_speed": 0.01034582914926206,
+          "elapsed_seconds": 0.04756808280944824,
+          "seed": 8
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 19.689173344357947,
+          "min_range": 0.2979676267922051,
+          "final_range": 0.9464577017023249,
+          "final_speed": 0.006585986965713932,
+          "elapsed_seconds": 0.04828691482543945,
+          "seed": 9
+        },
+        {
+          "success": 1.0,
+          "steps": 944.0,
+          "fuel_used": 17.24148822849719,
+          "min_range": 0.4991997992893583,
+          "final_range": 0.4991997992893583,
+          "final_speed": 0.010499488106392488,
+          "elapsed_seconds": 0.03529000282287598,
+          "seed": 10
+        },
+        {
+          "success": 1.0,
+          "steps": 1123.0,
+          "fuel_used": 18.500124273765135,
+          "min_range": 0.12610758639978017,
+          "final_range": 0.4989054108576337,
+          "final_speed": 0.006359429567764685,
+          "elapsed_seconds": 0.7046589851379395,
+          "seed": 11
+        },
+        {
+          "success": 1.0,
+          "steps": 1089.0,
+          "fuel_used": 16.575374590860303,
+          "min_range": 0.2575443040156208,
+          "final_range": 0.4979983728130979,
+          "final_speed": 0.006766514091010332,
+          "elapsed_seconds": 0.3238551616668701,
+          "seed": 12
+        },
+        {
+          "success": 1.0,
+          "steps": 1174.0,
+          "fuel_used": 18.361600848956783,
+          "min_range": 0.1650249056159452,
+          "final_range": 0.49727655522756825,
+          "final_speed": 0.009282553879917698,
+          "elapsed_seconds": 0.3236501216888428,
+          "seed": 13
+        },
+        {
+          "success": 1.0,
+          "steps": 1077.0,
+          "fuel_used": 18.467106011244393,
+          "min_range": 0.3199298801837963,
+          "final_range": 0.4995771065349907,
+          "final_speed": 0.006804808128488477,
+          "elapsed_seconds": 0.2839517593383789,
+          "seed": 14
+        },
+        {
+          "success": 1.0,
+          "steps": 1023.0,
+          "fuel_used": 17.02718217086747,
+          "min_range": 0.0973341636008115,
+          "final_range": 0.4980466087746313,
+          "final_speed": 0.006112933216538308,
+          "elapsed_seconds": 0.1784360408782959,
+          "seed": 15
+        },
+        {
+          "success": 1.0,
+          "steps": 1047.0,
+          "fuel_used": 18.56030555936955,
+          "min_range": 0.0904093837872039,
+          "final_range": 0.4993756124159908,
+          "final_speed": 0.008907895450084231,
+          "elapsed_seconds": 0.15585827827453613,
+          "seed": 16
+        },
+        {
+          "success": 1.0,
+          "steps": 1194.0,
+          "fuel_used": 17.845093028755,
+          "min_range": 0.09772183798218194,
+          "final_range": 0.49931889167578275,
+          "final_speed": 0.008271581655433676,
+          "elapsed_seconds": 0.2346949577331543,
+          "seed": 17
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 20.01190103809892,
+          "min_range": 0.10332105752584499,
+          "final_range": 3.2907864527823403,
+          "final_speed": 0.12009412775660215,
+          "elapsed_seconds": 0.06559109687805176,
+          "seed": 18
+        },
+        {
+          "success": 0.0,
+          "steps": 1200.0,
+          "fuel_used": 17.931387791046287,
+          "min_range": 0.08473018241191262,
+          "final_range": 0.5091705689869549,
+          "final_speed": 0.009664008396368967,
+          "elapsed_seconds": 0.11118602752685547,
+          "seed": 19
+        }
+      ]
+    },
+    {
+      "name": "lqr+shield",
+      "cfg": {
+        "controller": "lqr",
+        "docking_mode": false,
+        "safety_shield": true,
+        "speed_shaping_cost": true,
+        "thrust_max": 0.03,
+        "fuel_budget": 20.0,
+        "pos_sigma": 0.75,
+        "vel_sigma": 0.015,
+        "lqr_R_scale": 200.0,
+        "mpc_candidates": 1500,
+        "mpc_horizon_steps": 80
+      },
+      "n": 20,
+      "success_rate": 1.0,
+      "fuel_mean": 10.597773294030988,
+      "fuel_std": 0.22105395770482475,
+      "steps_mean": 510.55,
+      "steps_std": 9.249189153650173,
+      "rows": [
+        {
+          "success": 1.0,
+          "steps": 524.0,
+          "fuel_used": 10.976841825316933,
+          "min_range": 0.4783157392353115,
+          "final_range": 0.4783157392353115,
+          "final_speed": 0.05182555962440115,
+          "elapsed_seconds": 0.03146219253540039,
+          "seed": 0
+        },
+        {
+          "success": 1.0,
+          "steps": 498.0,
+          "fuel_used": 10.347979611014663,
+          "min_range": 0.40949502935846954,
+          "final_range": 0.4910076645412214,
+          "final_speed": 0.07508157365227354,
+          "elapsed_seconds": 0.05601787567138672,
+          "seed": 1
+        },
+        {
+          "success": 1.0,
+          "steps": 509.0,
+          "fuel_used": 10.484009972312675,
+          "min_range": 0.24014767328741077,
+          "final_range": 0.484563123191894,
+          "final_speed": 0.06619402224263755,
+          "elapsed_seconds": 0.03130602836608887,
+          "seed": 2
+        },
+        {
+          "success": 1.0,
+          "steps": 505.0,
+          "fuel_used": 10.48705832586477,
+          "min_range": 0.37413684662355856,
+          "final_range": 0.4716452562750766,
+          "final_speed": 0.057264373848314086,
+          "elapsed_seconds": 0.03972887992858887,
+          "seed": 3
+        },
+        {
+          "success": 1.0,
+          "steps": 513.0,
+          "fuel_used": 10.566962668923683,
+          "min_range": 0.32360441696939163,
+          "final_range": 0.4975329618841751,
+          "final_speed": 0.07343936658771524,
+          "elapsed_seconds": 0.09221005439758301,
+          "seed": 4
+        },
+        {
+          "success": 1.0,
+          "steps": 509.0,
+          "fuel_used": 10.556793092613578,
+          "min_range": 0.4811899190239878,
+          "final_range": 0.4811899190239878,
+          "final_speed": 0.06609630710761184,
+          "elapsed_seconds": 0.08062171936035156,
+          "seed": 5
+        },
+        {
+          "success": 1.0,
+          "steps": 500.0,
+          "fuel_used": 10.361317806964214,
+          "min_range": 0.4709941936165112,
+          "final_range": 0.4709941936165112,
+          "final_speed": 0.07517929501104781,
+          "elapsed_seconds": 0.05416703224182129,
+          "seed": 6
+        },
+        {
+          "success": 1.0,
+          "steps": 514.0,
+          "fuel_used": 10.68211290963166,
+          "min_range": 0.4807721853827049,
+          "final_range": 0.4807721853827049,
+          "final_speed": 0.07545372033047515,
+          "elapsed_seconds": 0.11498284339904785,
+          "seed": 7
+        },
+        {
+          "success": 1.0,
+          "steps": 512.0,
+          "fuel_used": 10.616020637326502,
+          "min_range": 0.4980495130487175,
+          "final_range": 0.4980495130487175,
+          "final_speed": 0.05774739025339332,
+          "elapsed_seconds": 0.03566479682922363,
+          "seed": 8
+        },
+        {
+          "success": 1.0,
+          "steps": 507.0,
+          "fuel_used": 10.448047023982921,
+          "min_range": 0.2894628261227057,
+          "final_range": 0.4880095613811032,
+          "final_speed": 0.05225760144545034,
+          "elapsed_seconds": 0.026658058166503906,
+          "seed": 9
+        },
+        {
+          "success": 1.0,
+          "steps": 512.0,
+          "fuel_used": 10.659436969283878,
+          "min_range": 0.4734299671273998,
+          "final_range": 0.4734299671273998,
+          "final_speed": 0.0518474819161391,
+          "elapsed_seconds": 0.049115896224975586,
+          "seed": 10
+        },
+        {
+          "success": 1.0,
+          "steps": 516.0,
+          "fuel_used": 10.659573874795049,
+          "min_range": 0.2686175980213531,
+          "final_range": 0.4728638427347014,
+          "final_speed": 0.06291851533687914,
+          "elapsed_seconds": 0.07916712760925293,
+          "seed": 11
+        },
+        {
+          "success": 1.0,
+          "steps": 506.0,
+          "fuel_used": 10.49349918650984,
+          "min_range": 0.4908545918600227,
+          "final_range": 0.4908545918600227,
+          "final_speed": 0.05705733093438229,
+          "elapsed_seconds": 0.040925025939941406,
+          "seed": 12
+        },
+        {
+          "success": 1.0,
+          "steps": 512.0,
+          "fuel_used": 10.677990466662832,
+          "min_range": 0.4799620619700517,
+          "final_range": 0.4799620619700517,
+          "final_speed": 0.05507723629868076,
+          "elapsed_seconds": 0.2441251277923584,
+          "seed": 13
+        },
+        {
+          "success": 1.0,
+          "steps": 514.0,
+          "fuel_used": 10.670493236810131,
+          "min_range": 0.4996230880129561,
+          "final_range": 0.4996230880129561,
+          "final_speed": 0.06335192669367933,
+          "elapsed_seconds": 0.19953036308288574,
+          "seed": 14
+        },
+        {
+          "success": 1.0,
+          "steps": 541.0,
+          "fuel_used": 11.339195357373155,
+          "min_range": 0.4944969452462669,
+          "final_range": 0.4944969452462669,
+          "final_speed": 0.044697549492795335,
+          "elapsed_seconds": 0.04839587211608887,
+          "seed": 15
+        },
+        {
+          "success": 1.0,
+          "steps": 500.0,
+          "fuel_used": 10.392771488667309,
+          "min_range": 0.4902789300898527,
+          "final_range": 0.4902789300898527,
+          "final_speed": 0.05827851575453943,
+          "elapsed_seconds": 0.03681373596191406,
+          "seed": 16
+        },
+        {
+          "success": 1.0,
+          "steps": 505.0,
+          "fuel_used": 10.511209039434979,
+          "min_range": 0.22271669626043755,
+          "final_range": 0.49452859405150107,
+          "final_speed": 0.07725520116553822,
+          "elapsed_seconds": 0.045227766036987305,
+          "seed": 17
+        },
+        {
+          "success": 1.0,
+          "steps": 511.0,
+          "fuel_used": 10.594148669901392,
+          "min_range": 0.2226188193540239,
+          "final_range": 0.4989328901281721,
+          "final_speed": 0.06366715077968027,
+          "elapsed_seconds": 0.03341388702392578,
+          "seed": 18
+        },
+        {
+          "success": 1.0,
+          "steps": 503.0,
+          "fuel_used": 10.430003717229601,
+          "min_range": 0.4818153953865315,
+          "final_range": 0.4818153953865315,
+          "final_speed": 0.06224348415094263,
+          "elapsed_seconds": 0.11515688896179199,
+          "seed": 19
+        }
+      ]
+    },
+    {
+      "name": "lqr_only",
+      "cfg": {
+        "controller": "lqr",
+        "docking_mode": false,
+        "safety_shield": false,
+        "speed_shaping_cost": true,
+        "thrust_max": 0.03,
+        "fuel_budget": 20.0,
+        "pos_sigma": 0.75,
+        "vel_sigma": 0.015,
+        "lqr_R_scale": 200.0,
+        "mpc_candidates": 1500,
+        "mpc_horizon_steps": 80
+      },
+      "n": 20,
+      "success_rate": 1.0,
+      "fuel_mean": 17.133707695581176,
+      "fuel_std": 0.3515763843438627,
+      "steps_mean": 819.7,
+      "steps_std": 20.14224416493852,
+      "rows": [
+        {
+          "success": 1.0,
+          "steps": 822.0,
+          "fuel_used": 17.29083743984751,
+          "min_range": 0.43359980048363816,
+          "final_range": 0.43359980048363816,
+          "final_speed": 0.06882363349047495,
+          "elapsed_seconds": 0.03675413131713867,
+          "seed": 0
+        },
+        {
+          "success": 1.0,
+          "steps": 816.0,
+          "fuel_used": 17.10400300417036,
+          "min_range": 0.12549766365513493,
+          "final_range": 0.20625649974591254,
+          "final_speed": 0.07290672626718864,
+          "elapsed_seconds": 0.042130231857299805,
+          "seed": 1
+        },
+        {
+          "success": 1.0,
+          "steps": 804.0,
+          "fuel_used": 16.921000098117986,
+          "min_range": 0.12745314221794457,
+          "final_range": 0.12745314221794457,
+          "final_speed": 0.0648408670209939,
+          "elapsed_seconds": 0.036041975021362305,
+          "seed": 2
+        },
+        {
+          "success": 1.0,
+          "steps": 826.0,
+          "fuel_used": 17.228458167833352,
+          "min_range": 0.2925816737990191,
+          "final_range": 0.37998584950526687,
+          "final_speed": 0.06418103604196035,
+          "elapsed_seconds": 0.031449079513549805,
+          "seed": 3
+        },
+        {
+          "success": 1.0,
+          "steps": 797.0,
+          "fuel_used": 16.65889217956262,
+          "min_range": 0.04574673185040988,
+          "final_range": 0.26809281425680664,
+          "final_speed": 0.06814010296546873,
+          "elapsed_seconds": 0.03067326545715332,
+          "seed": 4
+        },
+        {
+          "success": 1.0,
+          "steps": 799.0,
+          "fuel_used": 16.775290520754286,
+          "min_range": 0.11180862628029399,
+          "final_range": 0.4804791985391655,
+          "final_speed": 0.07730876079921806,
+          "elapsed_seconds": 0.029838085174560547,
+          "seed": 5
+        },
+        {
+          "success": 1.0,
+          "steps": 799.0,
+          "fuel_used": 16.707259662752293,
+          "min_range": 0.026001934766699226,
+          "final_range": 0.31086325094808737,
+          "final_speed": 0.07615010786405557,
+          "elapsed_seconds": 0.03438591957092285,
+          "seed": 6
+        },
+        {
+          "success": 1.0,
+          "steps": 837.0,
+          "fuel_used": 17.454152830782267,
+          "min_range": 0.01943290146320055,
+          "final_range": 0.06181819413255897,
+          "final_speed": 0.06353777741617063,
+          "elapsed_seconds": 0.039588212966918945,
+          "seed": 7
+        },
+        {
+          "success": 1.0,
+          "steps": 820.0,
+          "fuel_used": 17.213578662258225,
+          "min_range": 0.03229245648089012,
+          "final_range": 0.03651292122983058,
+          "final_speed": 0.07879344939397136,
+          "elapsed_seconds": 0.08470320701599121,
+          "seed": 8
+        },
+        {
+          "success": 1.0,
+          "steps": 848.0,
+          "fuel_used": 17.510304383379697,
+          "min_range": 0.19340166850074608,
+          "final_range": 0.23935866815668438,
+          "final_speed": 0.0728439972601559,
+          "elapsed_seconds": 0.07903194427490234,
+          "seed": 9
+        },
+        {
+          "success": 1.0,
+          "steps": 815.0,
+          "fuel_used": 17.165169605127485,
+          "min_range": 0.23602887104623585,
+          "final_range": 0.23602887104623585,
+          "final_speed": 0.07301092746800147,
+          "elapsed_seconds": 0.04611825942993164,
+          "seed": 10
+        },
+        {
+          "success": 1.0,
+          "steps": 817.0,
+          "fuel_used": 17.182266010176214,
+          "min_range": 0.20769009087554824,
+          "final_range": 0.4845404009466608,
+          "final_speed": 0.07359786712928584,
+          "elapsed_seconds": 0.056555986404418945,
+          "seed": 11
+        },
+        {
+          "success": 1.0,
+          "steps": 785.0,
+          "fuel_used": 16.553129891843056,
+          "min_range": 0.06019994947946065,
+          "final_range": 0.26087784121262625,
+          "final_speed": 0.07568780333504552,
+          "elapsed_seconds": 0.0773768424987793,
+          "seed": 12
+        },
+        {
+          "success": 1.0,
+          "steps": 863.0,
+          "fuel_used": 17.851808815481014,
+          "min_range": 0.03616693504504933,
+          "final_range": 0.13052663598073058,
+          "final_speed": 0.06665423927994746,
+          "elapsed_seconds": 0.8088498115539551,
+          "seed": 13
+        },
+        {
+          "success": 1.0,
+          "steps": 829.0,
+          "fuel_used": 17.261075622350653,
+          "min_range": 0.03668774192564555,
+          "final_range": 0.33199626637502483,
+          "final_speed": 0.07102781521098604,
+          "elapsed_seconds": 0.1557939052581787,
+          "seed": 14
+        },
+        {
+          "success": 1.0,
+          "steps": 811.0,
+          "fuel_used": 16.965690935303616,
+          "min_range": 0.03359056979474119,
+          "final_range": 0.11253640977190556,
+          "final_speed": 0.06319696142552306,
+          "elapsed_seconds": 0.06857705116271973,
+          "seed": 15
+        },
+        {
+          "success": 1.0,
+          "steps": 841.0,
+          "fuel_used": 17.446914599604078,
+          "min_range": 0.05597517742924652,
+          "final_range": 0.23511283106098502,
+          "final_speed": 0.07439604114804907,
+          "elapsed_seconds": 0.045522212982177734,
+          "seed": 16
+        },
+        {
+          "success": 1.0,
+          "steps": 798.0,
+          "fuel_used": 16.68492809761303,
+          "min_range": 0.12758005497016725,
+          "final_range": 0.4967959171660362,
+          "final_speed": 0.04390271899534109,
+          "elapsed_seconds": 0.11370110511779785,
+          "seed": 17
+        },
+        {
+          "success": 1.0,
+          "steps": 853.0,
+          "fuel_used": 17.744867995332253,
+          "min_range": 0.13475296986366428,
+          "final_range": 0.3194694938279789,
+          "final_speed": 0.0787935982854382,
+          "elapsed_seconds": 0.1310269832611084,
+          "seed": 18
+        },
+        {
+          "success": 1.0,
+          "steps": 814.0,
+          "fuel_used": 16.954525389333572,
+          "min_range": 0.05152581388655798,
+          "final_range": 0.22068054315543126,
+          "final_speed": 0.06833328320470959,
+          "elapsed_seconds": 0.07781410217285156,
+          "seed": 19
+        }
+      ]
+    },
+    {
+      "name": "mpc+dockpd+shield",
+      "cfg": {
+        "controller": "mpc",
+        "docking_mode": true,
+        "safety_shield": true,
+        "speed_shaping_cost": true,
+        "thrust_max": 0.03,
+        "fuel_budget": 20.0,
+        "pos_sigma": 0.75,
+        "vel_sigma": 0.015,
+        "lqr_R_scale": 200.0,
+        "mpc_candidates": 1500,
+        "mpc_horizon_steps": 80
+      },
+      "n": 20,
+      "success_rate": 1.0,
+      "fuel_mean": 3.5916265257658693,
+      "fuel_std": 0.11744787306539897,
+      "steps_mean": 471.1,
+      "steps_std": 91.00104395005586,
+      "rows": [
+        {
+          "success": 1.0,
+          "steps": 534.0,
+          "fuel_used": 3.6459358131330286,
+          "min_range": 0.49905187549172286,
+          "final_range": 0.49905187549172286,
+          "final_speed": 0.004791343147999062,
+          "elapsed_seconds": 389.95951294898987,
+          "seed": 0
+        },
+        {
+          "success": 1.0,
+          "steps": 446.0,
+          "fuel_used": 3.5539201439623676,
+          "min_range": 0.4985971062597725,
+          "final_range": 0.4985971062597725,
+          "final_speed": 0.004143344167439754,
+          "elapsed_seconds": 314.97306394577026,
+          "seed": 1
+        },
+        {
+          "success": 1.0,
+          "steps": 532.0,
+          "fuel_used": 3.652703506363272,
+          "min_range": 0.499002206625558,
+          "final_range": 0.499002206625558,
+          "final_speed": 0.007528846589154798,
+          "elapsed_seconds": 325.0697169303894,
+          "seed": 2
+        },
+        {
+          "success": 1.0,
+          "steps": 477.0,
+          "fuel_used": 3.8181408405326853,
+          "min_range": 0.4972161282208346,
+          "final_range": 0.4972161282208346,
+          "final_speed": 0.0062650926283429826,
+          "elapsed_seconds": 347.4193649291992,
+          "seed": 3
+        },
+        {
+          "success": 1.0,
+          "steps": 473.0,
+          "fuel_used": 3.6916344005467243,
+          "min_range": 0.49985995788938453,
+          "final_range": 0.49985995788938453,
+          "final_speed": 0.008054866052173747,
+          "elapsed_seconds": 330.7719578742981,
+          "seed": 4
+        },
+        {
+          "success": 1.0,
+          "steps": 523.0,
+          "fuel_used": 3.551190206572679,
+          "min_range": 0.49995197815343373,
+          "final_range": 0.49995197815343373,
+          "final_speed": 0.006881648353005843,
+          "elapsed_seconds": 319.6144688129425,
+          "seed": 5
+        },
+        {
+          "success": 1.0,
+          "steps": 575.0,
+          "fuel_used": 3.7759448105172084,
+          "min_range": 0.49955220962964797,
+          "final_range": 0.49955220962964797,
+          "final_speed": 0.005964204118482255,
+          "elapsed_seconds": 331.28188967704773,
+          "seed": 6
+        },
+        {
+          "success": 1.0,
+          "steps": 565.0,
+          "fuel_used": 3.56621501393194,
+          "min_range": 0.4974014897103967,
+          "final_range": 0.4974014897103967,
+          "final_speed": 0.010586796500665392,
+          "elapsed_seconds": 304.55156898498535,
+          "seed": 7
+        },
+        {
+          "success": 1.0,
+          "steps": 408.0,
+          "fuel_used": 3.5291332625900353,
+          "min_range": 0.498929346322546,
+          "final_range": 0.498929346322546,
+          "final_speed": 0.004418673988994739,
+          "elapsed_seconds": 350.2016739845276,
+          "seed": 8
+        },
+        {
+          "success": 1.0,
+          "steps": 455.0,
+          "fuel_used": 3.4645198906963284,
+          "min_range": 0.4996779045589282,
+          "final_range": 0.4996779045589282,
+          "final_speed": 0.007474807393525192,
+          "elapsed_seconds": 317.79469203948975,
+          "seed": 9
+        },
+        {
+          "success": 1.0,
+          "steps": 363.0,
+          "fuel_used": 3.4778752852640253,
+          "min_range": 0.498851092274721,
+          "final_range": 0.498851092274721,
+          "final_speed": 0.00704575140949252,
+          "elapsed_seconds": 357.8452091217041,
+          "seed": 10
+        },
+        {
+          "success": 1.0,
+          "steps": 502.0,
+          "fuel_used": 3.5928953958214773,
+          "min_range": 0.49799439357184405,
+          "final_range": 0.49799439357184405,
+          "final_speed": 0.009617639872091842,
+          "elapsed_seconds": 334.21486806869507,
+          "seed": 11
+        },
+        {
+          "success": 1.0,
+          "steps": 385.0,
+          "fuel_used": 3.526767946519326,
+          "min_range": 0.4995625561542462,
+          "final_range": 0.4995625561542462,
+          "final_speed": 0.008018875289993862,
+          "elapsed_seconds": 340.39103984832764,
+          "seed": 12
+        },
+        {
+          "success": 1.0,
+          "steps": 551.0,
+          "fuel_used": 3.6701326815376807,
+          "min_range": 0.49951369200687923,
+          "final_range": 0.49951369200687923,
+          "final_speed": 0.008751549151640309,
+          "elapsed_seconds": 303.4416949748993,
+          "seed": 13
+        },
+        {
+          "success": 1.0,
+          "steps": 541.0,
+          "fuel_used": 3.6665758570468356,
+          "min_range": 0.49868732589781617,
+          "final_range": 0.49868732589781617,
+          "final_speed": 0.0050961097884595396,
+          "elapsed_seconds": 329.7488579750061,
+          "seed": 14
+        },
+        {
+          "success": 1.0,
+          "steps": 325.0,
+          "fuel_used": 3.427248622918018,
+          "min_range": 0.4987618978938268,
+          "final_range": 0.4987618978938268,
+          "final_speed": 0.011667689511147498,
+          "elapsed_seconds": 317.4243199825287,
+          "seed": 15
+        },
+        {
+          "success": 1.0,
+          "steps": 512.0,
+          "fuel_used": 3.5958421955931454,
+          "min_range": 0.4982832358139897,
+          "final_range": 0.4982832358139897,
+          "final_speed": 0.007850943339461224,
+          "elapsed_seconds": 345.4452760219574,
+          "seed": 16
+        },
+        {
+          "success": 1.0,
+          "steps": 539.0,
+          "fuel_used": 3.654766925870686,
+          "min_range": 0.49822297161726825,
+          "final_range": 0.49822297161726825,
+          "final_speed": 0.01105307945886296,
+          "elapsed_seconds": 349.0303602218628,
+          "seed": 17
+        },
+        {
+          "success": 1.0,
+          "steps": 206.0,
+          "fuel_used": 3.301570144701795,
+          "min_range": 0.48803480235043223,
+          "final_range": 0.48803480235043223,
+          "final_speed": 0.07126931827167303,
+          "elapsed_seconds": 421.53745317459106,
+          "seed": 18
+        },
+        {
+          "success": 1.0,
+          "steps": 510.0,
+          "fuel_used": 3.669517571198121,
+          "min_range": 0.4982992135503154,
+          "final_range": 0.4982992135503154,
+          "final_speed": 0.005928817615667314,
+          "elapsed_seconds": 365.3938729763031,
+          "seed": 19
+        }
+      ]
+    }
+  ]
+}
